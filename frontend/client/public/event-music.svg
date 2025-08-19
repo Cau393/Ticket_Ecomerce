@@ -1,0 +1,168 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="spotlight" cx="50%" cy="30%" r="40%">
+      <stop offset="0%" style="stop-color:#00AAFF;stop-opacity:0.8" />
+      <stop offset="70%" style="stop-color:#0066CC;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Night sky background -->
+  <rect width="600" height="400" fill="url(#nightGrad)"/>
+  
+  <!-- Stage lighting -->
+  <ellipse cx="300" cy="100" rx="250" ry="150" fill="url(#spotlight)"/>
+  
+  <!-- Main stage -->
+  <rect x="100" y="200" width="400" height="120" fill="#2c2c2c" rx="10"/>
+  <rect x="110" y="210" width="380" height="100" fill="#3c3c3c" rx="5"/>
+  
+  <!-- DJ booth/equipment -->
+  <rect x="250" y="180" width="100" height="40" fill="#1a1a1a" rx="5"/>
+  <rect x="260" y="185" width="80" height="30" fill="#333333" rx="3"/>
+  
+  <!-- DJ equipment details -->
+  <g fill="#00AAFF">
+    <!-- Turntables -->
+    <circle cx="275" cy="200" r="8"/>
+    <circle cx="325" cy="200" r="8"/>
+    <circle cx="275" cy="200" r="4" fill="#0066CC"/>
+    <circle cx="325" cy="200" r="4" fill="#0066CC"/>
+    
+    <!-- Mixer -->
+    <rect x="285" y="190" width="30" height="20" fill="#1a1a1a" rx="2"/>
+    <circle cx="290" cy="195" r="2" fill="#00AAFF"/>
+    <circle cx="295" cy="195" r="2" fill="#00AAFF"/>
+    <circle cx="300" cy="195" r="2" fill="#00AAFF"/>
+    <circle cx="305" cy="195" r="2" fill="#00AAFF"/>
+    <circle cx="310" cy="195" r="2" fill="#00AAFF"/>
+    
+    <!-- Sliders -->
+    <rect x="290" y="202" width="2" height="6" fill="#ffffff"/>
+    <rect x="295" y="202" width="2" height="6" fill="#ffffff"/>
+    <rect x="300" y="202" width="2" height="6" fill="#ffffff"/>
+    <rect x="305" y="202" width="2" height="6" fill="#ffffff"/>
+  </g>
+  
+  <!-- DJ silhouette -->
+  <ellipse cx="300" cy="170" rx="10" ry="15" fill="#000000"/>
+  
+  <!-- Sound waves -->
+  <g stroke="#00AAFF" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M300 160 Q280 140 260 120"/>
+    <path d="M300 160 Q320 140 340 120"/>
+    <path d="M300 160 Q270 135 240 110"/>
+    <path d="M300 160 Q330 135 360 110"/>
+  </g>
+  
+  <!-- Crowd silhouettes -->
+  <g fill="#000000" opacity="0.8">
+    <!-- Front row -->
+    <ellipse cx="150" cy="330" rx="8" ry="15"/>
+    <ellipse cx="170" cy="335" rx="8" ry="15"/>
+    <ellipse cx="190" cy="330" rx="8" ry="15"/>
+    <ellipse cx="210" cy="335" rx="8" ry="15"/>
+    <ellipse cx="230" cy="330" rx="8" ry="15"/>
+    <ellipse cx="250" cy="335" rx="8" ry="15"/>
+    <ellipse cx="270" cy="330" rx="8" ry="15"/>
+    <ellipse cx="290" cy="335" rx="8" ry="15"/>
+    <ellipse cx="310" cy="330" rx="8" ry="15"/>
+    <ellipse cx="330" cy="335" rx="8" ry="15"/>
+    <ellipse cx="350" cy="330" rx="8" ry="15"/>
+    <ellipse cx="370" cy="335" rx="8" ry="15"/>
+    <ellipse cx="390" cy="330" rx="8" ry="15"/>
+    <ellipse cx="410" cy="335" rx="8" ry="15"/>
+    <ellipse cx="430" cy="330" rx="8" ry="15"/>
+    <ellipse cx="450" cy="335" rx="8" ry="15"/>
+    
+    <!-- Middle crowd -->
+    <ellipse cx="140" cy="350" rx="6" ry="12"/>
+    <ellipse cx="160" cy="355" rx="6" ry="12"/>
+    <ellipse cx="180" cy="350" rx="6" ry="12"/>
+    <ellipse cx="200" cy="355" rx="6" ry="12"/>
+    <ellipse cx="220" cy="350" rx="6" ry="12"/>
+    <ellipse cx="240" cy="355" rx="6" ry="12"/>
+    <ellipse cx="260" cy="350" rx="6" ry="12"/>
+    <ellipse cx="280" cy="355" rx="6" ry="12"/>
+    <ellipse cx="300" cy="350" rx="6" ry="12"/>
+    <ellipse cx="320" cy="355" rx="6" ry="12"/>
+    <ellipse cx="340" cy="350" rx="6" ry="12"/>
+    <ellipse cx="360" cy="355" rx="6" ry="12"/>
+    <ellipse cx="380" cy="350" rx="6" ry="12"/>
+    <ellipse cx="400" cy="355" rx="6" ry="12"/>
+    <ellipse cx="420" cy="350" rx="6" ry="12"/>
+    <ellipse cx="440" cy="355" rx="6" ry="12"/>
+    <ellipse cx="460" cy="350" rx="6" ry="12"/>
+    
+    <!-- Back crowd -->
+    <ellipse cx="130" cy="370" rx="4" ry="8"/>
+    <ellipse cx="150" cy="375" rx="4" ry="8"/>
+    <ellipse cx="170" cy="370" rx="4" ry="8"/>
+    <ellipse cx="190" cy="375" rx="4" ry="8"/>
+    <ellipse cx="210" cy="370" rx="4" ry="8"/>
+    <ellipse cx="230" cy="375" rx="4" ry="8"/>
+    <ellipse cx="250" cy="370" rx="4" ry="8"/>
+    <ellipse cx="270" cy="375" rx="4" ry="8"/>
+    <ellipse cx="290" cy="370" rx="4" ry="8"/>
+    <ellipse cx="310" cy="375" rx="4" ry="8"/>
+    <ellipse cx="330" cy="370" rx="4" ry="8"/>
+    <ellipse cx="350" cy="375" rx="4" ry="8"/>
+    <ellipse cx="370" cy="370" rx="4" ry="8"/>
+    <ellipse cx="390" cy="375" rx="4" ry="8"/>
+    <ellipse cx="410" cy="370" rx="4" ry="8"/>
+    <ellipse cx="430" cy="375" rx="4" ry="8"/>
+    <ellipse cx="450" cy="370" rx="4" ry="8"/>
+    <ellipse cx="470" cy="375" rx="4" ry="8"/>
+  </g>
+  
+  <!-- Raised hands in crowd -->
+  <g fill="#333333" opacity="0.6">
+    <rect x="165" y="310" width="3" height="15" rx="1" transform="rotate(-15 165 310)"/>
+    <rect x="225" y="315" width="3" height="15" rx="1" transform="rotate(20 225 315)"/>
+    <rect x="285" y="310" width="3" height="15" rx="1" transform="rotate(-10 285 310)"/>
+    <rect x="345" y="315" width="3" height="15" rx="1" transform="rotate(25 345 315)"/>
+    <rect x="405" y="310" width="3" height="15" rx="1" transform="rotate(-20 405 310)"/>
+  </g>
+  
+  <!-- Stage lights -->
+  <g fill="#00AAFF" opacity="0.4">
+    <circle cx="150" cy="180" r="8"/>
+    <circle cx="200" cy="170" r="8"/>
+    <circle cx="400" cy="170" r="8"/>
+    <circle cx="450" cy="180" r="8"/>
+  </g>
+  
+  <!-- Light beams -->
+  <g stroke="#00AAFF" stroke-width="3" fill="none" opacity="0.3">
+    <path d="M150 188 L120 250"/>
+    <path d="M200 178 L180 250"/>
+    <path d="M400 178 L420 250"/>
+    <path d="M450 188 L480 250"/>
+  </g>
+  
+  <!-- Musical notes floating -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="120" cy="100" r="4"/>
+    <rect x="124" y="85" width="2" height="20"/>
+    <path d="M126 85 Q135 80 135 90" stroke="#ffffff" stroke-width="1" fill="none"/>
+    
+    <circle cx="480" cy="120" r="4"/>
+    <rect x="484" y="105" width="2" height="20"/>
+    <path d="M486 105 Q495 100 495 110" stroke="#ffffff" stroke-width="1" fill="none"/>
+    
+    <circle cx="80" cy="180" r="3"/>
+    <rect x="83" y="170" width="1.5" height="15"/>
+    
+    <circle cx="520" cy="200" r="3"/>
+    <rect x="523" y="190" width="1.5" height="15"/>
+  </g>
+  
+  <!-- Venue text -->
+  <text x="300" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#ffffff">Festival Eletrônico</text>
+  <text x="300" y="50" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#00AAFF">Uma noite inesquecível</text>
+</svg>

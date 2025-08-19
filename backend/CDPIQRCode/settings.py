@@ -152,7 +152,7 @@ REST_FRAMEWORK = {
     'DEFAULT_THROTTLE_RATES': {
         'anon_user_creation': '10/hour',  # 10 user creations per hour per IP
         'user_checkin': '100/hour',       # 100 check-ins per hour per IP
-    }
+    },
 }
 
 
@@ -214,3 +214,25 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+AUTH_USER_MODEL = 'mainForm.User'
+
+# Asaas API timeouts and retry settings
+ASAAS_REQUEST_TIMEOUT = int(getenv('ASAAS_REQUEST_TIMEOUT', '30'))
+ASAAS_MAX_RETRIES = int(getenv('ASAAS_MAX_RETRIES', '3'))
+ASAAS_RETRY_DELAY = int(getenv('ASAAS_RETRY_DELAY', '1'))
+
+# Webhook settings (if you use Asaas webhooks)
+ASAAS_WEBHOOK_SECRET = getenv('ASAAS_WEBHOOK_SECRET', 'webhook_secret')
+
+
+# CORS (for Vite dev server)
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+]
+CORS_ALLOW_CREDENTIALS = True
+
+# CSRF trusted (dev)
+CSRF_TRUSTED_ORIGINS = [
+    "http://localhost:5173",
+]

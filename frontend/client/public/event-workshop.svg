@@ -1,0 +1,115 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="workshopBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screenBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066CC;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#00AAFF;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#workshopBg)"/>
+  
+  <!-- Workshop room -->
+  <rect x="50" y="100" width="500" height="250" fill="#ffffff" stroke="#dee2e6" stroke-width="2" rx="10"/>
+  
+  <!-- Tables (lab benches) -->
+  <rect x="80" y="150" width="120" height="60" fill="#f8f9fa" stroke="#adb5bd" stroke-width="1" rx="5"/>
+  <rect x="220" y="150" width="120" height="60" fill="#f8f9fa" stroke="#adb5bd" stroke-width="1" rx="5"/>
+  <rect x="360" y="150" width="120" height="60" fill="#f8f9fa" stroke="#adb5bd" stroke-width="1" rx="5"/>
+  
+  <rect x="80" y="250" width="120" height="60" fill="#f8f9fa" stroke="#adb5bd" stroke-width="1" rx="5"/>
+  <rect x="220" y="250" width="120" height="60" fill="#f8f9fa" stroke="#adb5bd" stroke-width="1" rx="5"/>
+  <rect x="360" y="250" width="120" height="60" fill="#f8f9fa" stroke="#adb5bd" stroke-width="1" rx="5"/>
+  
+  <!-- Lab equipment on tables -->
+  <g fill="#0066CC">
+    <!-- HPLC equipment -->
+    <rect x="90" y="160" width="30" height="20" rx="2"/>
+    <rect x="95" y="155" width="20" height="5" rx="1"/>
+    <circle cx="125" cy="170" r="4"/>
+    
+    <!-- Microscopes -->
+    <rect x="230" y="165" width="8" height="25" rx="1"/>
+    <circle cx="234" cy="160" r="6"/>
+    <rect x="226" y="190" width="16" height="4" rx="1"/>
+    
+    <!-- Computers/tablets -->
+    <rect x="370" y="160" width="25" height="18" fill="#343a40" rx="2"/>
+    <rect x="372" y="162" width="21" height="14" fill="#6c757d" rx="1"/>
+    
+    <!-- More equipment on second row -->
+    <rect x="90" y="260" width="25" height="15" rx="2"/>
+    <rect x="95" y="275" width="15" height="8" rx="1"/>
+    
+    <rect x="240" y="265" width="20" height="20" rx="2"/>
+    <circle cx="250" cy="275" r="8" fill="none" stroke="#0066CC" stroke-width="2"/>
+    
+    <rect x="380" y="260" width="30" height="25" rx="3"/>
+    <rect x="385" y="265" width="20" height="15" fill="#00AAFF" rx="1"/>
+  </g>
+  
+  <!-- People silhouettes working -->
+  <g fill="#495057">
+    <!-- Standing people -->
+    <ellipse cx="110" cy="140" rx="6" ry="12"/>
+    <ellipse cx="250" cy="140" rx="6" ry="12"/>
+    <ellipse cx="390" cy="140" rx="6" ry="12"/>
+    
+    <ellipse cx="140" cy="240" rx="6" ry="12"/>
+    <ellipse cx="280" cy="240" rx="6" ry="12"/>
+    <ellipse cx="420" cy="240" rx="6" ry="12"/>
+  </g>
+  
+  <!-- Instructor area -->
+  <rect x="200" y="80" width="200" height="15" fill="url(#screenBg)" rx="5"/>
+  <ellipse cx="300" cy="120" rx="8" ry="14" fill="#343a40"/>
+  
+  <!-- Whiteboard/screen content -->
+  <g transform="translate(210, 85)" fill="#0066CC">
+    <text font-family="Arial, sans-serif" font-size="8" text-anchor="middle" x="90" y="8">Design UX/UI</text>
+  </g>
+  
+  <!-- Laboratory glassware and equipment details -->
+  <g fill="#00AAFF" opacity="0.7">
+    <!-- Beakers -->
+    <path d="M120 170 L125 185 L115 185 Z"/>
+    <rect x="118" y="165" width="4" height="5"/>
+    
+    <path d="M260 270 L265 285 L255 285 Z"/>
+    <rect x="258" y="265" width="4" height="5"/>
+    
+    <!-- Test tubes -->
+    <rect x="400" y="170" width="3" height="15" rx="1"/>
+    <rect x="405" y="170" width="3" height="15" rx="1"/>
+    <rect x="410" y="170" width="3" height="15" rx="1"/>
+    
+    <!-- Pipettes -->
+    <line x1="130" y1="270" x2="130" y2="285" stroke="#00AAFF" stroke-width="2"/>
+    <circle cx="130" cy="268" r="2"/>
+  </g>
+  
+  <!-- Molecular diagrams floating -->
+  <g transform="translate(450, 50)" fill="#0066CC" opacity="0.3">
+    <circle cx="10" cy="10" r="3"/>
+    <circle cx="20" cy="15" r="3"/>
+    <circle cx="15" cy="25" r="3"/>
+    <line x1="13" y1="10" x2="17" y2="15" stroke="#0066CC" stroke-width="1"/>
+    <line x1="20" y1="18" x2="15" y2="22" stroke="#0066CC" stroke-width="1"/>
+  </g>
+  
+  <g transform="translate(100, 50)" fill="#00AAFF" opacity="0.3">
+    <circle cx="5" cy="5" r="2"/>
+    <circle cx="15" cy="8" r="2"/>
+    <circle cx="10" cy="18" r="2"/>
+    <line x1="7" y1="5" x2="13" y2="8" stroke="#00AAFF" stroke-width="1"/>
+    <line x1="15" y1="10" x2="10" y2="16" stroke="#00AAFF" stroke-width="1"/>
+  </g>
+  
+  <!-- Text labels -->
+  <text x="300" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#0066CC">Workshop Prático</text>
+  <text x="300" y="50" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#6c757d">Laboratório de Desenvolvimento Analítico</text>
+</svg>

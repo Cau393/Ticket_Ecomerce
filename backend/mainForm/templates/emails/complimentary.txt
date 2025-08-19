@@ -1,0 +1,8 @@
+Olá, {{ user_name }}!
+
+Você recebeu uma cortesia para o evento "{{ event.name }}".
+
+Acesse o link abaixo para resgatar sua cortesia:
+{{ complimentary_link }}
+
+Nos vemos lá!

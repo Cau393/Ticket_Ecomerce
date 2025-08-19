@@ -1,0 +1,13 @@
+Olá, {{ user_name }}!
+
+Seu ingresso para o evento "{{ event.name }}" foi gerado com sucesso.
+
+- Data: {{ event.start|date:"d/m/Y \\à\\s H:i" }}
+- Local: {{ event.location }}
+- Cidade: {{ event.city }}, {{ event.state }}
+- Classe do ingresso: {{ ticket_class.name }}
+
+O PDF do ingresso com o QR Code está anexado a este e-mail.
+Apresente-o na entrada do evento.
+
+Bom evento!

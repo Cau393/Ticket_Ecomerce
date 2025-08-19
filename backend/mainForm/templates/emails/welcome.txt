@@ -1,0 +1,4 @@
+Bem-vindo(a), {{ full_name }}!
+
+Obrigado por se cadastrar em nossa plataforma. Estamos felizes em tê-lo(a) conosco.
+Em breve você receberá novidades e informações sobre nossos eventos.

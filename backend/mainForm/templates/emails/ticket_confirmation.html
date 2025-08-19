@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Confirmação de Ingresso</title>
+</head>
+<body>
+  <h2>Olá, {{ user_name }}!</h2>
+  <p>Seu ingresso para o evento <strong>{{ event.name }}</strong> foi gerado com sucesso.</p>
+  <ul>
+    <li><strong>Data:</strong> {{ event.start|date:"d/m/Y \\à\\s H:i" }}</li>
+    <li><strong>Local:</strong> {{ event.location }}</li>
+    <li><strong>Cidade:</strong> {{ event.city }}, {{ event.state }}</li>
+    <li><strong>Classe do ingresso:</strong> {{ ticket_class.name }}</li>
+  </ul>
+  <p>O PDF do ingresso com o QR Code está anexado a este e-mail.</p>
+  <p>Apresente-o na entrada do evento. Bom evento!</p>
+</body>
+</html>
